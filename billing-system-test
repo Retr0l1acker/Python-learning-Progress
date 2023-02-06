@@ -13,7 +13,7 @@ class Bill_App:
         #====================Variables========================#
         self.cus_name = StringVar()
         self.c_phone = StringVar()
-        #For Generating Random Bill NumbeDH
+        #For Generating Random Bill Numbers
         x = random.randint(1000,9999)
         self.c_bill_no = StringVar()
         #Seting Value to variable
